@@ -9,5 +9,5 @@ app.get("/about", (req, res) => {
   res.send("<h1>This is the about</h1>");
 });
 
-app.listen(process.env);
-console.log("Server on port " + process.env);
+app.listen(process.env.PORT);
+console.log("Server on port " + process.env.PORT);
